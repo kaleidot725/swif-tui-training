@@ -1,1 +1,1 @@
-# swift-tui-training
+# swift-ui-training
