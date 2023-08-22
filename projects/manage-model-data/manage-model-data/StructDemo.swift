@@ -15,14 +15,14 @@ var globalBook = Book(
         id: NSUUID().uuidString,
         name : "UNIX MAN"
     ),
-    isAvailable: true
+    isAvailable: false
 )
 
 @Observable struct Book: Identifiable {
     let id : String
     let title : String
     let author : Author
-    let isAvailable : Bool
+    var isAvailable : Bool
 }
 
 @Observable struct Author : Identifiable {
@@ -40,6 +40,7 @@ struct BookView: View {
         VStack {
             Text(book.title)
             Text(book.author.name)
+            Text(book.isAvailable.description)
             Button(
                 action: {
                     let date = Date.now.formatted()
@@ -56,6 +57,14 @@ struct BookView: View {
                 },
                 label: {
                     Text("UPDATE")
+                }
+            )
+            Button(
+                action: {
+                    book.isAvailable.toggle()
+                },
+                label: {
+                    Text("TOGGLE")
                 }
             )
         }
