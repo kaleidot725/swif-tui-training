@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SwiftUIHierarchyr
+//  SwiftUIHierarchy
 //
 //  Created by 桂川 祐介 on 2023/08/31.
 //
