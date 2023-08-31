@@ -1,17 +1,22 @@
-//
-//  SwiftUIHierarchyApp.swift
-//  SwiftUIHierarchy
-//
-//  Created by 桂川 祐介 on 2023/08/31.
-//
-
 import SwiftUI
 
 @main
 struct SwiftUIHierarchyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                TabView {
+                    ContentView()
+                        .tabItem {
+                            Label("Journal", systemImage: "book")
+                        }
+
+                    SettingsView()
+                        .tabItem {
+                            Label("Settings", systemImage: "gear")
+                        }
+                }
+            }
         }
     }
 }

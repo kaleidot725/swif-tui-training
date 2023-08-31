@@ -11,6 +11,7 @@
 		CA8A57412AA0B7ED00107A26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A57402AA0B7ED00107A26 /* ContentView.swift */; };
 		CA8A57432AA0B7F000107A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8A57422AA0B7F000107A26 /* Assets.xcassets */; };
 		CA8A57462AA0B7F000107A26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8A57452AA0B7F000107A26 /* Preview Assets.xcassets */; };
+		CA8DE7942AA0BEBA00EACB1A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8DE7932AA0BEBA00EACB1A /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CA8A57402AA0B7ED00107A26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA8A57422AA0B7F000107A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA8A57452AA0B7F000107A26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA8DE7932AA0BEBA00EACB1A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CA8A573E2AA0B7ED00107A26 /* SwiftUIHierarchyApp.swift */,
 				CA8A57402AA0B7ED00107A26 /* ContentView.swift */,
+				CA8DE7932AA0BEBA00EACB1A /* SettingsView.swift */,
 				CA8A57422AA0B7F000107A26 /* Assets.xcassets */,
 				CA8A57442AA0B7F000107A26 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8DE7942AA0BEBA00EACB1A /* SettingsView.swift in Sources */,
 				CA8A57412AA0B7ED00107A26 /* ContentView.swift in Sources */,
 				CA8A573F2AA0B7ED00107A26 /* SwiftUIHierarchyApp.swift in Sources */,
 			);
