@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA8A573F2AA0B7ED00107A26 /* SwiftUIHierarchyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A573E2AA0B7ED00107A26 /* SwiftUIHierarchyApp.swift */; };
+		CA2505EE2AA22C5E00F96CF9 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2505ED2AA22C5E00F96CF9 /* Journal.swift */; };
+		CA2505F02AA22CA500F96CF9 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2505EF2AA22CA500F96CF9 /* JournalEntry.swift */; };
+		CA2505F32AA22F0100F96CF9 /* MyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2505F22AA22F0100F96CF9 /* MyScene.swift */; };
+		CA2505F52AA22F6800F96CF9 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2505F42AA22F6800F96CF9 /* MyApp.swift */; };
+		CA2505F82AA2353A00F96CF9 /* JournalEntryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2505F72AA2353A00F96CF9 /* JournalEntryListItem.swift */; };
+		CA2505FA2AA2358E00F96CF9 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2505F92AA2358E00F96CF9 /* DateView.swift */; };
+		CA51C3402AA35C710099C6CE /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51C33F2AA35C710099C6CE /* JournalEntryView.swift */; };
+		CA51C3422AA35E1B0099C6CE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51C3412AA35E1B0099C6CE /* DetailView.swift */; };
+		CA51C3442AA3699E0099C6CE /* SettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51C3432AA3699E0099C6CE /* SettingsDetailView.swift */; };
+		CA51C3462AA3706B0099C6CE /* AlternativeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51C3452AA3706B0099C6CE /* AlternativeContentView.swift */; };
+		CA51C3482AA374310099C6CE /* MyAlternativeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51C3472AA374310099C6CE /* MyAlternativeScene.swift */; };
 		CA8A57412AA0B7ED00107A26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A57402AA0B7ED00107A26 /* ContentView.swift */; };
 		CA8A57432AA0B7F000107A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8A57422AA0B7F000107A26 /* Assets.xcassets */; };
 		CA8A57462AA0B7F000107A26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8A57452AA0B7F000107A26 /* Preview Assets.xcassets */; };
@@ -15,8 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA2505ED2AA22C5E00F96CF9 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		CA2505EF2AA22CA500F96CF9 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		CA2505F22AA22F0100F96CF9 /* MyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScene.swift; sourceTree = "<group>"; };
+		CA2505F42AA22F6800F96CF9 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		CA2505F72AA2353A00F96CF9 /* JournalEntryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryListItem.swift; sourceTree = "<group>"; };
+		CA2505F92AA2358E00F96CF9 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		CA51C33F2AA35C710099C6CE /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		CA51C3412AA35E1B0099C6CE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CA51C3432AA3699E0099C6CE /* SettingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetailView.swift; sourceTree = "<group>"; };
+		CA51C3452AA3706B0099C6CE /* AlternativeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeContentView.swift; sourceTree = "<group>"; };
+		CA51C3472AA374310099C6CE /* MyAlternativeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlternativeScene.swift; sourceTree = "<group>"; };
 		CA8A573B2AA0B7ED00107A26 /* SwiftUIHierarchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIHierarchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA8A573E2AA0B7ED00107A26 /* SwiftUIHierarchyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHierarchyApp.swift; sourceTree = "<group>"; };
 		CA8A57402AA0B7ED00107A26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA8A57422AA0B7F000107A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA8A57452AA0B7F000107A26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -34,6 +54,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA2505EC2AA22C3500F96CF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA2505ED2AA22C5E00F96CF9 /* Journal.swift */,
+				CA2505EF2AA22CA500F96CF9 /* JournalEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA2505F12AA22DF600F96CF9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CA2505F22AA22F0100F96CF9 /* MyScene.swift */,
+				CA51C3472AA374310099C6CE /* MyAlternativeScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CA2505F62AA2314A00F96CF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA8A57402AA0B7ED00107A26 /* ContentView.swift */,
+				CA51C3452AA3706B0099C6CE /* AlternativeContentView.swift */,
+				CA51C3412AA35E1B0099C6CE /* DetailView.swift */,
+				CA2505F92AA2358E00F96CF9 /* DateView.swift */,
+				CA51C33F2AA35C710099C6CE /* JournalEntryView.swift */,
+				CA2505F72AA2353A00F96CF9 /* JournalEntryListItem.swift */,
+				CA8DE7932AA0BEBA00EACB1A /* SettingsView.swift */,
+				CA51C3432AA3699E0099C6CE /* SettingsDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CA8A57322AA0B7ED00107A26 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +106,10 @@
 		CA8A573D2AA0B7ED00107A26 /* SwiftUIHierarchy */ = {
 			isa = PBXGroup;
 			children = (
-				CA8A573E2AA0B7ED00107A26 /* SwiftUIHierarchyApp.swift */,
-				CA8A57402AA0B7ED00107A26 /* ContentView.swift */,
-				CA8DE7932AA0BEBA00EACB1A /* SettingsView.swift */,
+				CA2505F42AA22F6800F96CF9 /* MyApp.swift */,
+				CA2505EC2AA22C3500F96CF9 /* Models */,
+				CA2505F12AA22DF600F96CF9 /* Scenes */,
+				CA2505F62AA2314A00F96CF9 /* Views */,
 				CA8A57422AA0B7F000107A26 /* Assets.xcassets */,
 				CA8A57442AA0B7F000107A26 /* Preview Content */,
 			);
@@ -140,9 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2505F52AA22F6800F96CF9 /* MyApp.swift in Sources */,
 				CA8DE7942AA0BEBA00EACB1A /* SettingsView.swift in Sources */,
+				CA2505FA2AA2358E00F96CF9 /* DateView.swift in Sources */,
+				CA51C3422AA35E1B0099C6CE /* DetailView.swift in Sources */,
 				CA8A57412AA0B7ED00107A26 /* ContentView.swift in Sources */,
-				CA8A573F2AA0B7ED00107A26 /* SwiftUIHierarchyApp.swift in Sources */,
+				CA51C3482AA374310099C6CE /* MyAlternativeScene.swift in Sources */,
+				CA2505F82AA2353A00F96CF9 /* JournalEntryListItem.swift in Sources */,
+				CA2505F32AA22F0100F96CF9 /* MyScene.swift in Sources */,
+				CA51C3442AA3699E0099C6CE /* SettingsDetailView.swift in Sources */,
+				CA51C3462AA3706B0099C6CE /* AlternativeContentView.swift in Sources */,
+				CA51C3402AA35C710099C6CE /* JournalEntryView.swift in Sources */,
+				CA2505F02AA22CA500F96CF9 /* JournalEntry.swift in Sources */,
+				CA2505EE2AA22C5E00F96CF9 /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
