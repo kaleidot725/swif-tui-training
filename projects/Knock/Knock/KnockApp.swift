@@ -12,12 +12,14 @@ struct KnockApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                NavigationLink {
-                    Knock001()
-                } label: {
-                    Text("NO.001")
-                }
-            }.navigationTitle("Questions")
+                VStack {
+                    NavigationLink {
+                        Knock001().navigationTitle("NO.001")
+                    } label: {
+                        Label("NO.001", systemImage: "arrowshape.turn.up.right.fill")
+                    }
+                }.navigationTitle("Knock")
+            }
         }
     }
 }
