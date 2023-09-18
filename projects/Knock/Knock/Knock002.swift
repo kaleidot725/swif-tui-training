@@ -1,23 +1,23 @@
 //
-//  Knock001.swift
+//  Knock002.swift
 //  Knock
 //
 
 import SwiftUI
 
-struct Knock001: View {
+struct Knock002: View {
     var body: some View {
         VStack {
             Image("Sample")
                 .resizable() // 画像のサイズを変えられるようにする
-                .aspectRatio(contentMode: .fit) // 画像の比を崩さないが、領域に収まるようにする
+                .aspectRatio(contentMode: .fill) // 画像の比は崩さないが、領域からはみ出してもOK
                 .frame(width: 150, height: 200) // 画像のサイズを指定する
-                .background(Color.black) // 画像の比を変えないので、余る領域に背景色をつける
+                .clipped() // 領域からはみ出した領域をクリップする
         }
         .padding()
     }
 }
 
 #Preview {
-    Knock001()
+    Knock002()
 }
