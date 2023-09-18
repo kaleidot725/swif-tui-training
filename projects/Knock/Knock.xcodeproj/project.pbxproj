@@ -12,6 +12,7 @@
 		CA06B22E2AB872BC00812D95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA06B22D2AB872BC00812D95 /* Preview Assets.xcassets */; };
 		CA06B2352AB8756600812D95 /* Knock001.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B2342AB8756600812D95 /* Knock001.swift */; };
 		CA06B2372AB880B800812D95 /* Knock002.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B2362AB880B800812D95 /* Knock002.swift */; };
+		CA06B2392AB8853200812D95 /* Knock003.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B2382AB8853200812D95 /* Knock003.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CA06B22D2AB872BC00812D95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA06B2342AB8756600812D95 /* Knock001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock001.swift; sourceTree = "<group>"; };
 		CA06B2362AB880B800812D95 /* Knock002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock002.swift; sourceTree = "<group>"; };
+		CA06B2382AB8853200812D95 /* Knock003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock003.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				CA06B2262AB872BA00812D95 /* KnockApp.swift */,
 				CA06B2342AB8756600812D95 /* Knock001.swift */,
 				CA06B2362AB880B800812D95 /* Knock002.swift */,
+				CA06B2382AB8853200812D95 /* Knock003.swift */,
 				CA06B22A2AB872BC00812D95 /* Assets.xcassets */,
 				CA06B22C2AB872BC00812D95 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA06B2392AB8853200812D95 /* Knock003.swift in Sources */,
 				CA06B2272AB872BA00812D95 /* KnockApp.swift in Sources */,
 				CA06B2352AB8756600812D95 /* Knock001.swift in Sources */,
 				CA06B2372AB880B800812D95 /* Knock002.swift in Sources */,
