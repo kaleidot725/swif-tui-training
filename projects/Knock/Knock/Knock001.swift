@@ -1,11 +1,13 @@
 //
-//  ContentView.swift
+//  Knock001.swift
 //  Knock
+//
+//  Created by 桂川 祐介 on 2023/09/18.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct Knock001: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -18,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Knock001()
 }
