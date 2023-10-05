@@ -18,6 +18,7 @@
 		CA39F0EA2AC1BB34005FBB7B /* Knock006.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA39F0E92AC1BB34005FBB7B /* Knock006.swift */; };
 		CA8ACBDE2ACC47E400C8C8CD /* Knock007.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ACBDD2ACC47E400C8C8CD /* Knock007.swift */; };
 		CA8ACBE02ACC4F1D00C8C8CD /* Knock008.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ACBDF2ACC4F1D00C8C8CD /* Knock008.swift */; };
+		CA8ACBE22ACEFC9A00C8C8CD /* Knock009.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ACBE12ACEFC9A00C8C8CD /* Knock009.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CA39F0E92AC1BB34005FBB7B /* Knock006.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock006.swift; sourceTree = "<group>"; };
 		CA8ACBDD2ACC47E400C8C8CD /* Knock007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock007.swift; sourceTree = "<group>"; };
 		CA8ACBDF2ACC4F1D00C8C8CD /* Knock008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock008.swift; sourceTree = "<group>"; };
+		CA8ACBE12ACEFC9A00C8C8CD /* Knock009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock009.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				CA39F0E92AC1BB34005FBB7B /* Knock006.swift */,
 				CA8ACBDD2ACC47E400C8C8CD /* Knock007.swift */,
 				CA8ACBDF2ACC4F1D00C8C8CD /* Knock008.swift */,
+				CA8ACBE12ACEFC9A00C8C8CD /* Knock009.swift */,
 				CA06B22A2AB872BC00812D95 /* Assets.xcassets */,
 				CA06B22C2AB872BC00812D95 /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 			files = (
 				CA06B2392AB8853200812D95 /* Knock003.swift in Sources */,
 				CA06B2272AB872BA00812D95 /* KnockApp.swift in Sources */,
+				CA8ACBE22ACEFC9A00C8C8CD /* Knock009.swift in Sources */,
 				CA8ACBE02ACC4F1D00C8C8CD /* Knock008.swift in Sources */,
 				CA06B23B2AB9E84400812D95 /* Knock004.swift in Sources */,
 				CA06B2352AB8756600812D95 /* Knock001.swift in Sources */,
