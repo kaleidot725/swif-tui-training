@@ -19,6 +19,7 @@
 		CA8ACBDE2ACC47E400C8C8CD /* Knock007.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ACBDD2ACC47E400C8C8CD /* Knock007.swift */; };
 		CA8ACBE02ACC4F1D00C8C8CD /* Knock008.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ACBDF2ACC4F1D00C8C8CD /* Knock008.swift */; };
 		CA8ACBE22ACEFC9A00C8C8CD /* Knock009.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ACBE12ACEFC9A00C8C8CD /* Knock009.swift */; };
+		CA8ACBE42ACEFE8600C8C8CD /* Knock010.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ACBE32ACEFE8600C8C8CD /* Knock010.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CA8ACBDD2ACC47E400C8C8CD /* Knock007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock007.swift; sourceTree = "<group>"; };
 		CA8ACBDF2ACC4F1D00C8C8CD /* Knock008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock008.swift; sourceTree = "<group>"; };
 		CA8ACBE12ACEFC9A00C8C8CD /* Knock009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock009.swift; sourceTree = "<group>"; };
+		CA8ACBE32ACEFE8600C8C8CD /* Knock010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock010.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				CA8ACBDD2ACC47E400C8C8CD /* Knock007.swift */,
 				CA8ACBDF2ACC4F1D00C8C8CD /* Knock008.swift */,
 				CA8ACBE12ACEFC9A00C8C8CD /* Knock009.swift */,
+				CA8ACBE32ACEFE8600C8C8CD /* Knock010.swift */,
 				CA06B22A2AB872BC00812D95 /* Assets.xcassets */,
 				CA06B22C2AB872BC00812D95 /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				CA06B2352AB8756600812D95 /* Knock001.swift in Sources */,
 				CA39F0EA2AC1BB34005FBB7B /* Knock006.swift in Sources */,
 				CA39F0E82AC1B896005FBB7B /* Knock005.swift in Sources */,
+				CA8ACBE42ACEFE8600C8C8CD /* Knock010.swift in Sources */,
 				CA8ACBDE2ACC47E400C8C8CD /* Knock007.swift in Sources */,
 				CA06B2372AB880B800812D95 /* Knock002.swift in Sources */,
 			);
