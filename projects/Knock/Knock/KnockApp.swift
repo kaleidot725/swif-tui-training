@@ -12,7 +12,7 @@ struct KnockApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                VStack {
+                List {
                     NavigationLink {
                         Knock001().navigationTitle("NO.001")
                     } label: {
@@ -67,6 +67,11 @@ struct KnockApp: App {
                         Knock010().navigationTitle("NO.010")
                     } label: {
                         Label("NO.010", systemImage: "arrowshape.turn.up.right.fill")
+                    }
+                    NavigationLink {
+                        Knock011().navigationTitle("NO.011")
+                    } label: {
+                        Label("NO.011", systemImage: "arrowshape.turn.up.right.fill")
                     }
                 }.navigationTitle("Knock")
             }
