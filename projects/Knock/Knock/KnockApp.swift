@@ -93,6 +93,11 @@ struct KnockApp: App {
                     } label: {
                         Label("NO.015", systemImage: "arrowshape.turn.up.right.fill")
                     }
+                    NavigationLink {
+                        Knock016().navigationTitle("NO.016")
+                    } label: {
+                        Label("NO.016", systemImage: "arrowshape.turn.up.right.fill")
+                    }
                 }.navigationTitle("Knock")
             }
         }
