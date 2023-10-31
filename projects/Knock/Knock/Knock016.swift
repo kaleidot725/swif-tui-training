@@ -6,14 +6,16 @@
 import SwiftUI
 
 struct Knock016: View {
-    @State private var isShowAlert = false
+    @State private var isShowAlert1 = false
+    @State private var isShowAlert2 = false
+
     var body: some View {
         VStack {
             Button("Button1") {
-                isShowAlert = true
+                isShowAlert1 = true
             }
             .alert(
-                "Title1", isPresented: $isShowAlert
+                "Title1", isPresented: $isShowAlert1
             ) {
                 // ここにエラー処理を記述する
             } message: {
@@ -21,10 +23,10 @@ struct Knock016: View {
             }
 
             Button("Button2") {
-                isShowAlert = true
+                isShowAlert2 = true
             }
             .alert(
-                "Title2", isPresented: $isShowAlert
+                "Title2", isPresented: $isShowAlert2
             ) {
                 // ここにエラー処理を記述する
             } message: {
