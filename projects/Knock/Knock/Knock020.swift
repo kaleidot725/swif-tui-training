@@ -8,7 +8,6 @@ import SwiftUI
 struct Knock020: View {
     @State var isClicked = false
     var body: some View {
-        // 非推奨の書き方なので使わないこと
         NavigationView {
             VStack {
                 Button(action: { isClicked = true }) {

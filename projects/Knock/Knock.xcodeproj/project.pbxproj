@@ -29,6 +29,7 @@
 		CA8ACBE42ACEFE8600C8C8CD /* Knock010.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ACBE32ACEFE8600C8C8CD /* Knock010.swift */; };
 		CAC340842AF3DF580044C6DA /* Knock019.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC340832AF3DF580044C6DA /* Knock019.swift */; };
 		CAC340862AF51E3D0044C6DA /* Knock020.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC340852AF51E3D0044C6DA /* Knock020.swift */; };
+		CAC340882AF521F40044C6DA /* Knock021.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC340872AF521F40044C6DA /* Knock021.swift */; };
 		CACD354F2AE163AA00517924 /* Knock012.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD354E2AE163AA00517924 /* Knock012.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		CA8ACBE32ACEFE8600C8C8CD /* Knock010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock010.swift; sourceTree = "<group>"; };
 		CAC340832AF3DF580044C6DA /* Knock019.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock019.swift; sourceTree = "<group>"; };
 		CAC340852AF51E3D0044C6DA /* Knock020.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock020.swift; sourceTree = "<group>"; };
+		CAC340872AF521F40044C6DA /* Knock021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock021.swift; sourceTree = "<group>"; };
 		CACD354E2AE163AA00517924 /* Knock012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock012.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				CA546C272AF13F9500FFD271 /* Knock018.swift */,
 				CAC340832AF3DF580044C6DA /* Knock019.swift */,
 				CAC340852AF51E3D0044C6DA /* Knock020.swift */,
+				CAC340872AF521F40044C6DA /* Knock021.swift */,
 				CA06B22A2AB872BC00812D95 /* Assets.xcassets */,
 				CA06B22C2AB872BC00812D95 /* Preview Content */,
 			);
@@ -212,6 +215,7 @@
 				CA39F0E82AC1B896005FBB7B /* Knock005.swift in Sources */,
 				CA546C262AF13EB500FFD271 /* Knock017.swift in Sources */,
 				CA8ACBE42ACEFE8600C8C8CD /* Knock010.swift in Sources */,
+				CAC340882AF521F40044C6DA /* Knock021.swift in Sources */,
 				CA8ACBDE2ACC47E400C8C8CD /* Knock007.swift in Sources */,
 				CA06B2372AB880B800812D95 /* Knock002.swift in Sources */,
 				CA546C1E2AF1388200FFD271 /* Knock013.swift in Sources */,
