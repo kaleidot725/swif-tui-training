@@ -1,3 +1,4 @@
+
 //
 //  KnockApp.swift
 //  Knock
@@ -122,6 +123,11 @@ struct KnockApp: App {
                         Knock021().navigationTitle("NO.021")
                     } label: {
                         Label("NO.021", systemImage: "arrowshape.turn.up.right.fill")
+                    }
+                    NavigationLink {
+                        Knock022().navigationTitle("NO.022")
+                    } label: {
+                        Label("NO.022", systemImage: "arrowshape.turn.up.right.fill")
                     }
                 }.navigationTitle("Knock")
             }
