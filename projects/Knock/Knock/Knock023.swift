@@ -8,6 +8,8 @@ import SwiftUI
 struct CardView<T>: View where T: View {
     let color: Color
     let radius: CGFloat
+
+    @ViewBuilder
     let content: () -> T
 
     var body: some View {
