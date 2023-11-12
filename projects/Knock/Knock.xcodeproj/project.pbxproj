@@ -36,6 +36,7 @@
 		CAC340862AF51E3D0044C6DA /* Knock020.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC340852AF51E3D0044C6DA /* Knock020.swift */; };
 		CAC340882AF521F40044C6DA /* Knock021.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC340872AF521F40044C6DA /* Knock021.swift */; };
 		CACD354F2AE163AA00517924 /* Knock012.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD354E2AE163AA00517924 /* Knock012.swift */; };
+		CADD56172B010C97005A824B /* Knock027.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD56162B010C97005A824B /* Knock027.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		CAC340852AF51E3D0044C6DA /* Knock020.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock020.swift; sourceTree = "<group>"; };
 		CAC340872AF521F40044C6DA /* Knock021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock021.swift; sourceTree = "<group>"; };
 		CACD354E2AE163AA00517924 /* Knock012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock012.swift; sourceTree = "<group>"; };
+		CADD56162B010C97005A824B /* Knock027.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock027.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				CA219EE32AF6175E00A9C947 /* Knock024.swift */,
 				CA5BF40B2AF910EE00D134B1 /* Knock025.swift */,
 				CA5BF40D2AF9170900D134B1 /* Knock026.swift */,
+				CADD56162B010C97005A824B /* Knock027.swift */,
 				CA06B22A2AB872BC00812D95 /* Assets.xcassets */,
 				CA06B22C2AB872BC00812D95 /* Preview Content */,
 			);
@@ -220,6 +223,7 @@
 				CA219EE42AF6175E00A9C947 /* Knock024.swift in Sources */,
 				CA546C222AF13B9000FFD271 /* Knock015.swift in Sources */,
 				CA8ACBE02ACC4F1D00C8C8CD /* Knock008.swift in Sources */,
+				CADD56172B010C97005A824B /* Knock027.swift in Sources */,
 				CA06B23B2AB9E84400812D95 /* Knock004.swift in Sources */,
 				CACD354F2AE163AA00517924 /* Knock012.swift in Sources */,
 				CA546C242AF13D6A00FFD271 /* Knock016.swift in Sources */,
